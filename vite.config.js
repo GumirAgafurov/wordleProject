@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/имя-репозитория/', // замените на имя вашего репозитория
+  base: 'https://github.com/GumirAgafurov/wordleProject/', 
   build: {
     outDir: 'dist',
     sourcemap: false,
