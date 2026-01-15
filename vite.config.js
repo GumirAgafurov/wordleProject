@@ -3,10 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-<<<<<<< HEAD
-  base: 'https://github.com/GumirAgafurov/wordleProject', // важно для GitHub Pages!
-})
-=======
   base: 'https://github.com/GumirAgafurov/wordleProject/', 
   build: {
     outDir: 'dist',
@@ -29,4 +25,3 @@ export default defineConfig({
     port: 3000,
   }
 })
->>>>>>> ae9cd7382316f6b30bd4868359aacb9b7197f1b7
