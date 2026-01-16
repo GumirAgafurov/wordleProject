@@ -56,20 +56,6 @@ button:focus-visible {
 
 
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-
 #root {
   width: 100%;
 }
@@ -127,14 +113,37 @@ body {
     display: block !important;  
   }
 
-   :root {
-    color: #213547;
-    background-color: #ffffff;
+
+  body {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    overflow-y: auto !important; 
   }
-  a:hover {
-    color: #747bff;
+  
+
+  #root {
+    padding-top: 0.25rem !important;
+    overflow: visible !important;
   }
-  button {
-    background-color: #f9f9f9;
+  
+
+  h1 {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5em !important;
+    margin: 0.25rem 0 !important;
+    padding: 0.25rem 0.5rem !important;
+  }
+  
+  .newGameButton {
+    margin-top: 0 !important;
+    top: -15px !important;
+    padding: 0.8rem 1.5rem !important;
   }
 }

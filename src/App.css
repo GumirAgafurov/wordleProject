@@ -223,4 +223,31 @@
     background: #ffaa00;
     color: white;
   }
+
+  
+  .newGameButton {
+    margin: 0.5rem 0 1rem 0 !important; 
+    position: relative;
+    top: -10px; 
+  }
+  
+
+  h1 {
+    font-size: 1.8em !important; 
+    line-height: 1.2 !important;
+    padding-top: 0.5rem !important;
+    margin-top: 0.5rem !important;
+    overflow: visible !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+  }
+  
+
+  .app {
+    padding-top: 0.25rem !important;
+  }
+
+  .gameBoard {
+    margin-top: 0.25rem !important;
+  }
 }

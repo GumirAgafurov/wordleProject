@@ -127,7 +127,7 @@ const startNewGame = () => {
   return (
   <div className='app'>
     <header>
-      <h1>Супер крутая игра</h1>
+      <h1>WORDLE - УГАДАЙ СЛОВО ИЗ 5 БУКВ</h1>
     </header>
     {/* Создаем игровую доску */}
     <div className='gameBoard'>
