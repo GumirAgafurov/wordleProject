@@ -74,9 +74,7 @@ button:focus-visible {
   width: 100%;
 }
 
-/* index.css - после существующих стилей */
 
-/* Убираем полосы прокрутки и фиксируем размер */
 html, body, #root {
   overflow: hidden;
 }
@@ -94,10 +92,10 @@ body {
 #root {
   width: 100%;
   max-width: 1280px;
-  padding: 1rem; /* Уменьшаем padding на мобильных */
+  padding: 1rem; 
 }
 
-/* Дополнительно: регулируем размер для мобильных */
+
 @media (max-width: 768px) {
   #root {
     padding: 0.5rem;
