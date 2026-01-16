@@ -141,7 +141,16 @@
   .gameBoard {
     gap: 6px;
   }
+    .app {
+    padding-top: 0.5rem; 
+    margin-top: -1rem; 
+  }
+  
+  .gameBoard {
+    margin: 0.5rem 0; 
+  }
 }
+
 
 @media (max-width: 480px) {
   .letter-box {
