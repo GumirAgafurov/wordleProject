@@ -134,16 +134,3 @@ body {
 
 }
 
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.5em !important;
-    margin: 0.25rem 0 !important;
-    padding: 0.25rem 0.5rem !important;
-  }
-  
-  .newGameButton {
-    margin-top: 0 !important;
-    top: -15px !important;
-    padding: 0.8rem 1.5rem !important;
-  }
-}
