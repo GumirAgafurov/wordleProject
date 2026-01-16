@@ -109,9 +109,6 @@ body {
 
     body {
     display: block !important;  
-    padding: 5px 0 0 0 !important; 
-    margin: 0 !important;
-    min-height: auto !important;
   }
 }
 
@@ -124,5 +121,9 @@ body {
     width: 40px;
     height: 40px;
     font-size: 1.2em;
+  }
+
+  body {
+    display: block !important;  
   }
 }
