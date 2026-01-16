@@ -1,4 +1,3 @@
-import { setCurrentStack } from 'three/tsl';
 import './App.css'
 import { useState, useEffect } from 'react';
 
